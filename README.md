@@ -1,5 +1,6 @@
-# COVID CT_Image Classification
-MNC에서 주관한 흉부 CT 이미지를 이용해 코로나19 감염 여부를 이진 분류 모델 구현 대회입니다.
+# COVID19 CT_Image Classification
+
+주최 : 중소벤처기업진흥공단 / 주관 : 마인즈앤컴퍼니 (MNC)
 
 ## 대회 개요
 - **대회 기간** : 2022년 02월 09일 12:00 PM ~ 2022년 02월 15일 12:00 PM
@@ -11,7 +12,7 @@ MNC에서 주관한 흉부 CT 이미지를 이용해 코로나19 감염 여부�
 
 - **평가 지표** 
 	- **Accuracy (정확도)**
-![image](https://github.com/NOTITLEUNTITLE/COVID_CT/blob/main/.image1PNG.PNG?raw=true)
+![image](https://github.com/Changho0514/COVID_CT/blob/main/.image1PNG.PNG?raw=true)
 
 ----------
 ## 문제 접근방법
