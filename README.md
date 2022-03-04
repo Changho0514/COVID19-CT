@@ -12,7 +12,7 @@
 ----------
 - **평가 지표** 
 	- **Accuracy (정확도)**
-![image](https://github.com/Changho0514/COVID19_CT/accuracy.png)
+![image](https://github.com/Changho0514/COVID19-CT/accuracy.png)
 
 ----------
 ## 문제 접근방법
