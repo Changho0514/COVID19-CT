@@ -12,7 +12,7 @@
 ----------
 - **평가 지표** 
 	- **Accuracy (정확도)**
-![image](https://github.com/Changho0514/COVID_CT/accuracy.png)
+![image](https://github.com/Changho0514/COVID19_CT/accuracy.png)
 
 ----------
 ## 문제 접근방법
@@ -29,9 +29,12 @@ Crop하여 동일한 데이터 여러번 학습 시킬 수 있어 Train양이 �
 
 ![image](https://cdn.discordapp.com/attachments/940518751974080532/941560175989489774/2022-02-11_2.03.52.png)
 
+이미지를 일정한 크기를 가진 작은 블록으로 구분, 블록별로 히스토그램 균일화를 시행하여 이미지 전체에 대해 균일화를 달성하는 Clahe를 통해 어두운 부분/ 밝은 부분 대비를 뚜렷하게 만듭니다.
+
 ### 모델 선정
+CV에서 뛰어난 Resnet을 이용하려 했으나 overfitting이 쉽게 일어나는 모델인데다가 데이터가 많지 않기 때문에 
+cnn모델을 이용하기로 하였습니다.
 			
-			
-			
-## 결론
+## 결과
+Accuracy : 0.833
 
